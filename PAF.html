@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1b4d0;
+        }
+        header {
+            background-color: #dfa257;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        article {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            background-color: rgb(95, 167, 200);
+            transition: transform 0.2s;
+        }
+        article:hover {
+            transform: scale(1.02);
+        }
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: rgb(158, 229, 235);
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #4c91af;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #3a738e;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Paws and Whiskers Haven!</h1>
+    <p>From paws to purrs, every pet has a story. Write a new chapter in their lives as well as yours by giving them a place in your home and hearts.</p>
+</header>
+
+<hr>
+
+<section>
+    <h2>Available Pets for Adoption</h2>
+    
+    <article>
+        <h3>Rustyn</h3>
+        <img src="https://i.pinimg.com/564x/6c/7c/14/6c7c14d8831a1bed9db1988f6083b193.jpg" alt="A playful dog" width="200" height ="200">
+        <p><strong>Breed:</strong> Labrador Retriever</p>
+        <p><strong>Age:</strong> 3 years</p>
+        <p><strong>Description:</strong> Rustyn is a lovable Labrador Retriever with a heart as golden as his fur. He adores long walks, fetching balls, and splashing in water. Rustyn gets along well with kids, other dogs, and even cats.</p>
+    </article>
+    
+    <article>
+        <h3>Luna</h3>
+        <img src="https://i.pinimg.com/564x/5f/5c/9d/5f5c9d5060d709b62cdd4fb228c36eac.jpg" alt="Cat" width="200" height ="200">
+        <p><strong>Breed:</strong> Domestic Shorthair</p>
+        <p><strong>Age:</strong> 2 years</p>
+        <p><strong>Description:</strong> Luna is a snuggle bug who enjoys curling up in cozy spots. She's great with people and other pets, hoping to find a forever family.</p>
+    </article>
+    
+    <article>
+        <h3>Hazel</h3>
+        <img src="https://i.pinimg.com/474x/dd/83/e9/dd83e9e38b29f0f88b90961899c1baba.jpg" alt="Rabbit" width="200" height ="200">
+        <p><strong>Breed:</strong> Bunny</p>
+        <p><strong>Age:</strong> 1 year</p>
+        <p><strong>Description:</strong> Hazel is a sweet bunny with a soft, caramel-colored coat. She's a curious explorer who loves fresh veggies and cuddles.</p>
+    </article>
+</section>
+
+<hr>
+
+<section>
+    <h2>Adoption Form</h2>
+    <form>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="pet">Pet Interested In:</label><br>
+        <input type="text" id="pet" name="pet" required>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+        <button type="submit">Submit Adoption Request</button>
+    </form>
+</section>
+
+<footer>
+    <hr>
+    <p>© 2024 Pet Adoption Center. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
